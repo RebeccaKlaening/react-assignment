@@ -4,7 +4,7 @@ import './Button.css';
 const Button = (props) => {
   return (
   <div {...props} className="button-placement">
-    <button className="button">GOT</button>
+    <button className="button">Quote</button>
   </div>
   )
 }
