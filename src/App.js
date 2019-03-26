@@ -4,7 +4,7 @@ import Button from './components/Button';
 import Name from './components/Name';
 import Music from './components/Music';
 import './App.css';
-import './components/Music.css';
+
 
 class App extends Component {
     state = {
