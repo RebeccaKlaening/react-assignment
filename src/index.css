@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url('got.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+}
+
 body {
   background-image: url('got.jpg');
   background-size: cover;
@@ -9,14 +29,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

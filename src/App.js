@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Quote from './components/Quote';
 import Button from './components/Button';
 import Name from './components/Name';
-import './components/Button.css';
+import Music from './components/Music';
 import './App.css';
+import './components/Music.css';
 
 class App extends Component {
     state = {
@@ -41,6 +42,7 @@ return (
 <div className="App">
 
 <div>
+<Music />
 <Name>{this.state.character}</Name>
 <Quote>{this.state.quote}</Quote>
 </div>

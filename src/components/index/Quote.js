@@ -4,7 +4,7 @@ import React from "react";
 
 const Quote = props => {
   return (
-    <div>
+    <div className="quote-placement">
       <h2>
         {props.children}
       </h2>
