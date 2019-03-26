@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Germania+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 @media screen and (max-width: 768px) {
@@ -41,7 +42,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Open Sans';
   width: 800px;
 
 }

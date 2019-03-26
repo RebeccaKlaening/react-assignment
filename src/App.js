@@ -21,11 +21,12 @@ fetchQuote = () => {
 fetch("https://got-quotes.herokuapp.com/quotes")
   .then(res => res.json())
   .then(res => {
-console.log(res.quote)
-    this.setState({
+    console.log(res.quote)
 
-quote: res.quote,
-character: res.character
+      this.setState({
+
+      quote: res.quote,
+      character: res.character
 
     });
   });
@@ -35,18 +36,19 @@ handleButtonClick = () => {
   this.fetchQuote();
 };
 
-render(){
-console.log(this.state.quote)
-console.log(this.state.character)
-return (
+render() {
+  console.log(this.state.quote)
+  console.log(this.state.character)
+
+  return (
 <div className="App">
 
 <div>
-<Music />
-<Name>{this.state.character}</Name>
-<Quote>{this.state.quote}</Quote>
+  <Music />
+  <Name>{this.state.character}</Name>
+  <Quote>{this.state.quote}</Quote>
 </div>
-<Button onClick={this.handleButtonClick} />
+  <Button onClick={this.handleButtonClick} />
 </div>
     )
   }
